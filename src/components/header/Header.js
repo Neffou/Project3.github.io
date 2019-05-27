@@ -27,22 +27,23 @@ class Header extends Component{
     return  (
     <header className={this.state.background? "header_header" : "header_header_white"}>
 
-      <NavLink exact to="/" activeClassName="selected" className={this.state.background? "header_link" : "header_link_black"} onClick={this.pictureBackground}>
+      <NavLink exact to="/" className={this.state.background? "header_link" : "header_link_black"} onClick={this.pictureBackground}>
         <Brand background={this.state.background}/>
       </NavLink>
 
-      <NavLink to="/tracking" activeClassName="selected" className={this.state.background? "header_link" : "header_link_black"} onClick={this.whiteBackground}>
-        <Tab icon="map-marker-alt" tab="Tracking"/>
-      </NavLink>
+      <div className="header_link_div">
+        <NavLink to="/tracking" activeClassName="selected" className={this.state.background? "header_link" : "header_link_black"} onClick={this.whiteBackground}>
+          <Tab icon="map-marker-alt" tab="Tracking"/>
+        </NavLink>
 
-      <NavLink to="/login" activeClassName="selected" className={this.state.background? "header_link" : "header_link_black"} onClick={this.whiteBackground}>
-        <Tab icon="user-tie" tab="Login"/>
-      </NavLink>
+        <NavLink to="/login" activeClassName="selected" className={this.state.background? "header_link" : "header_link_black"} onClick={this.whiteBackground}>
+          <Tab icon="user-tie" tab="Login"/>
+        </NavLink>
 
-      <NavLink to="/register" activeClassName="selected" className={this.state.background? "header_link" : "header_link_black"} onClick={this.whiteBackground}>
-        <Tab icon="user-plus" tab="Register"/>
-      </NavLink>
-
+        <NavLink to="/register" activeClassName="selected" className={this.state.background? "header_link" : "header_link_black"} onClick={this.whiteBackground}>
+          <Tab icon="user-plus" tab="Register"/>
+        </NavLink>
+      </div>
     </header>
     )
   }

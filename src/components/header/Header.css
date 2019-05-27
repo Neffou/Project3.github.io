@@ -18,14 +18,23 @@
     text-decoration: none;
 }
 
+.header_link:hover {
+    color: fade(white, 80%);
+    outline: none;
+    background-color: transparent;
+}
+
 .header_link_black{
     color: black;
     font-family: varela-round;
     text-decoration: none;
 }
 
-.header_logo{
-    height: 50px;
-    width: 50px
+.header_link_black:hover{
+    color: #C9A959;
+    font-family: varela-round;
+    text-decoration: none;
 }
+
+
 

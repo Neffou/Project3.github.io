@@ -7,9 +7,11 @@ library.add(faMapMarkerAlt, faUserTie, faUserPlus )
 
 const Tab = ({icon, tab}) => {
 
-    return    <div>
-    <FontAwesomeIcon icon={icon} /> {tab}
-  </div>
+    return   (
+      <div>
+        <FontAwesomeIcon icon={icon} /> {tab}
+      </div>
+    )
 
 }
 

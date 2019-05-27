@@ -3,25 +3,29 @@
     display: flex;
     flex-direction: row;
     min-height: 56px;
-
 }
 
-.header_header:active{
-    background-color: white
+.header_header_white{
+    background-color: white; 
+    display: flex;
+    flex-direction: row;
+    min-height: 56px;
 }
 
 .header_link{
     color: white;
     font-family: varela-round;
     text-decoration: none;
-    
 }
+
+.header_link_black{
+    color: black;
+    font-family: varela-round;
+    text-decoration: none;
+}
+
 .header_logo{
     height: 50px;
     width: 50px
 }
 
-.selected{
-    color: black;
-    background-color: white
-}

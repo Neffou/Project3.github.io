@@ -28,7 +28,7 @@ class Header extends Component{
     <header className={this.state.background? "header_header" : "header_header_white"}>
 
       <NavLink exact to="/" activeClassName="selected" className={this.state.background? "header_link" : "header_link_black"} onClick={this.pictureBackground}>
-        <Brand/>
+        <Brand background={this.state.background}/>
       </NavLink>
 
       <NavLink to="/tracking" activeClassName="selected" className={this.state.background? "header_link" : "header_link_black"} onClick={this.whiteBackground}>

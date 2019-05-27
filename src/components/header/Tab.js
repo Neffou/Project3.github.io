@@ -3,12 +3,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faMapMarkerAlt, faUserTie, faUserPlus } from '@fortawesome/free-solid-svg-icons'
 
+import "./Tab.css"
+
 library.add(faMapMarkerAlt, faUserTie, faUserPlus )
 
 const Tab = ({icon, tab}) => {
 
     return   (
-      <div>
+      <div className="header_tab">
         <FontAwesomeIcon icon={icon} /> {tab}
       </div>
     )

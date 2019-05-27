@@ -14,7 +14,8 @@
 
 .header_link{
     color: white;
-    font-family: varela-round;
+    font-family: nunito sans-serif;
+    letter-spacing: .0625em;
     text-decoration: none;
 }
 
@@ -26,13 +27,15 @@
 
 .header_link_black{
     color: black;
-    font-family: varela-round;
+    font-family: nunito sans-serif;
+    letter-spacing: .0625em;
     text-decoration: none;
 }
 
 .header_link_black:hover{
     color: #C9A959;
-    font-family: varela-round;
+    font-family: nunito sans-serif;
+    letter-spacing: .0625em;
     text-decoration: none;
 }
 

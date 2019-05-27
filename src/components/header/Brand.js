@@ -4,12 +4,12 @@ import yoshiplogo from "../../assets/images/yoship-logo.png";
 
 import "./Brand.css"
 
-const Brand = () => {
+const Brand = ({background}) => {
 
     return  (
-        <div>
+        <div >
             <img src={yoshiplogo} alt="yoship logo" className="header_logo"/>
-            <span className="header_brand">YoShip</span>
+            <span className={background ? "header_brand" : "header_brand_black"}>YoShip</span>
         </div>
     )
 }

@@ -7,7 +7,7 @@ class Button extends React.Component {
         return (
         <div>
             <p>
-                <button className="login-button">SUBMIT</button> 
+                <button className="login-button">SUBMIT FORM</button> 
             </p>
         </div>
         )

@@ -9,12 +9,14 @@ body {
   }
 
 .container-form-login{
-    display: grid;
-    color:#212529;
+    padding: 15rem 5rem 5rem;
+    /* border: red solid 10px; */
+    display: block;
+    color: #212529;
     margin: auto;
     grid-template-columns: repeat(1, 80%);
     justify-content: center;
-    grid-template-rows: repeat(7,auto);
+    grid-template-rows: repeat(7, auto);
     font-family: Nunito, sans-serif;
     letter-spacing: .0625em;
     font-size: 1rem;
@@ -26,6 +28,7 @@ body {
     background-attachment: scroll;
     background-size: cover;
 }
+
 
 .label-email-login{
     grid-column-start: 1;

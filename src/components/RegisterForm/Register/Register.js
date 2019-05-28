@@ -39,7 +39,7 @@ class Register extends React.Component {
             </p>
             {/* checkbox terms and conditions  */}
             <p className="checkbox-register">
-            <input type="checkbox" /><label>Agree to terms and conditions</label><br/>
+            <input type="checkbox" /><label> Agree to terms and conditions</label><br/>
             </p>
             <span className="button-login"><Button /></span>
         </form>

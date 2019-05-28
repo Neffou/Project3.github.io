@@ -7,12 +7,10 @@ import './PageHeader.scss'
 const PageHeader = props => (
 <>
     <header className="masthead">
-
-        <h1>Yoship Experience Delivery</h1>
-        <h2>A new way of delivery for luxury brands and demanding clients.
+        <h1>YOSHIP EXPERIENCE DELIVERY</h1>
+        <h2>A new way of delivery for luxury brands and demanding clients.<br/>
         This is not a simple package, this is an YoShip experience.</h2>
         <Button title= "GET STARTED"/>
-
     </header>
 </>
 

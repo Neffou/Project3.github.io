@@ -43,9 +43,13 @@
 }
 
 .header_link:hover {
-    color: fade(white, 80%);
-    outline: none;
-    background-color: transparent;
+    color: rgba(255,255,255,0.75);
+    text-decoration: none;
+}
+
+.header_link_gold:hover {
+    color: rgba(255,255,255,0.75);
+    text-decoration: none;
 }
 
 .header_link_black{
@@ -58,11 +62,12 @@
 
 .header_link_black:hover{
     color: #C9A959;
+    text-decoration: none;
 
 }
 
 .header_link_div{
-    margin-right: 10vw;
+    margin-right: 1vw;
     display: flex;
     align-items: center;
     flex-direction: row;

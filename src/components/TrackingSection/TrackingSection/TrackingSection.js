@@ -27,7 +27,10 @@ class TrackingSection extends Component {
         <form action="/" method="get" className="form_inline">
           <label className="hidden" htmlFor='trackNumber'></label>
           <input type="text" placeholder="Enter your tracking number..." className="form_control"/>
-          <Button text="LET'S SEE !"/>
+          
+        <div id='buttontracking' >
+        <Button text="LET'S SEE !"/>
+        </div>
         </form>
         
       

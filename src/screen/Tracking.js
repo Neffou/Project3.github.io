@@ -1,6 +1,6 @@
 import React from "react";
 import TrackingSection from "../components/TrackingSection/TrackingSection/TrackingSection";
-
+import Footer from '../components/Footer/Footer'
 
 const Tracking = () => {
 
@@ -8,7 +8,7 @@ const Tracking = () => {
     <div>
 
 <TrackingSection />
-
+<Footer />
     </div>
 
 )}

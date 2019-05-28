@@ -38,8 +38,7 @@ class Header extends Component{
   render () {
     const headerClass = this.state.background && this.state.isTop? "header_header" : "header_header_white"
     const linkClass= this.state.background && this.state.isTop? "header_link" : "header_link_black"
-    console.log("background" + this.state.background)
-    console.log("isTop" + this.state.isTop)
+    const linkRegister= this.state.background && this.state.isTop? "header_link_gold" : "header_link_black"
 
     return  (
       
@@ -58,7 +57,7 @@ class Header extends Component{
           <Tab icon="user-tie" tab="Login"/>
         </NavLink>
 
-        <NavLink to="/register" activeClassName="selected" className={linkClass} onClick={this.whiteBackground}>
+        <NavLink to="/register" activeClassName="selected" className={linkRegister} onClick={this.whiteBackground}>
           <Tab icon="user-plus" tab="Register"/>
         </NavLink>
       </div>

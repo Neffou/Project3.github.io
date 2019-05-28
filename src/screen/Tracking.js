@@ -1,10 +1,17 @@
 import React from "react";
+import TrackingSection from "../components/TrackingSection/TrackingSection/TrackingSection";
+
 
 const Tracking = () => {
 
-    return  <div>Tracking</div>
+    return  (        
+    <div>
 
-}
+<TrackingSection />
+
+    </div>
+
+)}
 
 
-export default Tracking
+export default Tracking;

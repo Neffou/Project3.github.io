@@ -21,21 +21,26 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round', 'sans-serif';
-  font-size: 2.0rem;
-  line-height: 2.5rem;
-  font-weight: 100;
-  letter-spacing: 0.5rem;
-  background: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 194, 136, 0.4));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  text-align: center;
+  font-size: 2.5rem;
+    font-family: 'Varela Round', 'sans-serif';
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 0.5rem;
+    background: -webkit-linear-gradient(white, rgba(255, 194, 136, 0.4));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
 }
 
 .masthead h2 {
+  max-width: 30rem;
+  /* font-size: 2rem; */
+  /* font-size: 2.5rem; */
+  /* margin-left: auto!important; */
   font-family: 'Varela Round', 'sans-serif';
-  max-width: 20rem;
-  font-size: 1rem;
+  /* max-width: 20rem; */
+  font-size: 2rem;
   font-weight: 100;
   line-height: 1.2;
   color: rgba(255, 255, 255, 0.7);

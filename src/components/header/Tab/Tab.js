@@ -10,6 +10,8 @@ library.add(faMapMarkerAlt, faUserTie, faUserPlus )
 
 
 
+import "./Tab.css"
+
 library.add(faMapMarkerAlt, faUserTie, faUserPlus )
 
 const Tab = ({icon, tab}) => {

@@ -1,10 +1,21 @@
 import React from "react";
+import Register from '../components/RegisterForm/Register/Register'
+import Footer from '../components/Footer/Footer'
+import Header from '../components/Header/Header'
 
-const Register = () => {
+const Register1 = () => {
 
-    return  <div>Register</div>
-
+    return (   
+    
+    <div>
+    <Header />
+    <Register />
+    <Footer />
+    </div>
+)
 }
 
 
-export default Register
+export default Register1;
+
+

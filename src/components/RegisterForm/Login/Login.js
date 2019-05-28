@@ -1,7 +1,6 @@
 import React from 'react';
-import './Login.css';
-import button from './Button'
-import Button from './Button';
+import './Login.scss';
+import Button from '../Button/Button'
 
 class Login extends React.Component {
 

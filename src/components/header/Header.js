@@ -38,9 +38,11 @@ class Header extends Component{
   render () {
     const headerClass = this.state.background && this.state.isTop? "header_header" : "header_header_white"
     const linkClass= this.state.background && this.state.isTop? "header_link" : "header_link_black"
-
+    console.log("background" + this.state.background)
+    console.log("isTop" + this.state.isTop)
 
     return  (
+      
     <header className={headerClass}>
 
       <NavLink exact to="/" className={this.state.background? "header_link" : "header_link_black"} onClick={this.pictureBackground}>
